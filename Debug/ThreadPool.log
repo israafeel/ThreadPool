@@ -1,0 +1,25 @@
+﻿  源.cpp
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17): error C2143: 语法错误 : 缺少“;”(在“&”的前面)
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(18): error C2146: 语法错误: 缺少“;”(在标识符“staticObject”的前面)
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(18): error C2065: “staticObject”: 未声明的标识符
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(19): error C2065: “staticObject”: 未声明的标识符
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(26): error C2556: “threadManager &getThreadManager(void)”: 重载函数与“int &getThreadManager(void)”只是在返回类型上不同
+          e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17) : 参见“getThreadManager”的声明
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(26): error C2371: “getThreadManager”: 重定义；不同的基类型
+          e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17) : 参见“getThreadManager”的声明
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(26): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+  ThreadPool.cpp
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17): error C2143: 语法错误 : 缺少“;”(在“&”的前面)
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(18): error C2146: 语法错误: 缺少“;”(在标识符“staticObject”的前面)
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(18): error C2065: “staticObject”: 未声明的标识符
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(19): error C2065: “staticObject”: 未声明的标识符
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(26): error C2556: “threadManager &getThreadManager(void)”: 重载函数与“int &getThreadManager(void)”只是在返回类型上不同
+          e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17) : 参见“getThreadManager”的声明
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(26): error C2371: “getThreadManager”: 重定义；不同的基类型
+          e:\vc_12_workspace\threadpool\threadpool\threadpool.h(17) : 参见“getThreadManager”的声明
+e:\vc_12_workspace\threadpool\threadpool\threadpool.h(26): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+  正在生成代码...
